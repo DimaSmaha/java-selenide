@@ -14,6 +14,6 @@ public class textboxTest extends pageObjects.homePage{
         isFirstNameNotificationVisible();
         Assertions.assertTrue(isFirstNameNotificationDisplayed());
 
-        // there are to ways to assert smth or through Assertions or through selenide should, should has own timeouts
+        // there are two ways to assert smth or through Assertions or through selenide should, should has own timeouts
     }
 }
