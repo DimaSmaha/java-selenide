@@ -7,7 +7,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 
 
-// make this class abstract so we can only inheritate it
+// make this class abstract so we can only inheritate it in other classes
 // base class that initiate driver and sets up before and after
 abstract public class basePage {
     public void setUp(){
